@@ -7,7 +7,7 @@ public class Lab01 {
 		+ answer1);
 		
 		double Pi = 4 * (1.0 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
-		double ModPi =  4 * (1.0 - 1.0/3 + 1.0/5 - 1.0/7 + 1.0/9 - 1.0/11 + 1/13);
+		double ModPi =  4 * (1.0 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11) + (1/13));
 		System.out.println("This is the result of Pi: " + Pi);
 		System.out.println("This is the result of extra Pi: " + ModPi);
 
