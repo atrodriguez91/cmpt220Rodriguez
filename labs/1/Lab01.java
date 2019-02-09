@@ -1,4 +1,4 @@
-
+// JA: Next time keep every problem in a separate class
 public class Lab01 {
 
 	public static void main(String[] args) {
