@@ -12,6 +12,7 @@ public class Lab2_5 {
 		System.out.print("Enter second string: ");
 		String secondS = input.nextLine();
 		
+		// JA: You had to print the strings in order
 		System.out.println(firstS.compareTo(secondS));
 
 	}
