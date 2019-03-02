@@ -18,7 +18,7 @@ public class Lab3_1 {
 			sum += numbers[i];			
 		}
 		
-		double average = (int) sum / n;
+		double average = (int) sum / n; // JA: This is an integer division
 		
 		int count = 0;
 		for (int i = 0; i < numbers.length; i++) {
@@ -26,6 +26,7 @@ public class Lab3_1 {
 				count++;
 		}
 		
+		// JA: Evens?
 		System.out.println("Average is " + average);
 		System.out.println("Number of even numbers: " + count);
 		System.out.println("Sum is " + sum);
