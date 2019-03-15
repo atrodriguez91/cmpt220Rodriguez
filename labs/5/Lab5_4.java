@@ -35,7 +35,7 @@ public class Lab5_4 {
 
 		for ( int i = 0; i < listOne.length; i++ ) 
 		{
-			if ( listOne[i] != listTwo[i] )
+			if ( listOne[i] != listTwo[i] ) // JA: The elements could be in different order
 				return false;
 		}
 		return true;
