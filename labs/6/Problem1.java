@@ -7,7 +7,10 @@ public class Problem1 {
 	
 	Square sq2 = new Square(35.9);
 	
-	System.out.println("");
+	System.out.println(sq1.getArea());
+	System.out.println(sq1.getPerimeter());
+	System.out.println(sq2.getArea());
+	System.out.println(sq2.getPerimeter());
 	
 	}
 	
