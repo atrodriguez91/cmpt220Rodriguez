@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// JA: Where are the changes to the triangle class?
 public class TriangleException {
 
 	public static void main(String[] args) {
