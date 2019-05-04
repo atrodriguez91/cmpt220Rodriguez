@@ -18,6 +18,7 @@ public class Course {
 		return courseName;
 	}
 
+	// JA: You shouldn't change the contract of the method
 	public ArrayList getStudents() {
 		return students;
 	}
