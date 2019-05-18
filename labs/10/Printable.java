@@ -10,6 +10,8 @@ class Rectangle implements Printable {
 		this.length = length;
 		this.width = width;
 	}
+	
+	@Override
 	public void print() {
 		System.out.println("Rectangle : length: " + length + "width: " + width + "Area: " + length*width);
 	}
@@ -23,6 +25,7 @@ class SportCar implements Printable {
 		this.number= number;
 	}
 	
+	@Override
 	public void print() {
 		System.out.println("SPorts Car: Name: " + name + "Number: " + number);
 	}
